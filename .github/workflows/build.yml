@@ -74,9 +74,10 @@ jobs:
           libusbredirparser-dev \
           libtasn1-6-dev \
           libvirglrenderer-dev \
-          debhelper \
-          dh-systemd \
-          quilt
+          libvulkan-dev \
+          libvulkan1 \
+          libva-drm2 \
+          debhelper
 
     - name: Build virglrenderer
       run: |
