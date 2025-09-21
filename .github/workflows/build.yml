@@ -77,6 +77,7 @@ jobs:
           libvulkan-dev \
           libvulkan1 \
           libva-drm2 \
+          libva-dev \
           debhelper
 
     - name: Build virglrenderer
